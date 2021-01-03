@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Obligation to Excellence"
-date:   2020-01-02 04:56:00 -0500
+date:   2021-01-02 04:56:00 -0500
 categories: morality philosophy humanity mankind obligation excellence
 ---
 
