@@ -4,7 +4,6 @@ title:  "Better E2E API Mocks"
 date:   2021-10-26 10:44:25 -0500
 categories: frontend software testing mocks testing e2e api
 ---
-
 The first time I wrote an end-to-end test suite for a frontend application. I approached the problem naively and based each test case on user flows that I could understand and replicate by navigating through the app that was currently in production.
 
 Replicating the flows in an automated browser was simple enough as I could copy the network responses from my prod session and save them locally as individual JSON files to serve to the api requests coming from the automated browser through an http intercepter. The shortcoming of this solution is obvious, for every variation of the underlying response object, a new json file has to be added to the codebase and any tests which need to use this response need to import it. At worst, this method of storing reponses results in a new file being saved for every variation of every response used by your application. Worse still is that if any object in these JSON files has their definition changed outside the scope of the frontend application, all of the files which reference that object also have to be updated.
