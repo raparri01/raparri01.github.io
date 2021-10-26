@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Better E2E API Mocks"
+title:  "Frontend: Better E2E API Mocks"
 date:   2021-10-25 10:44:25 -0500
 categories: frontend software testing mocks testing e2e api
 ---
