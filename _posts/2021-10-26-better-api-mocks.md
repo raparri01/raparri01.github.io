@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Better E2E API Mocks"
-date:   2021-10-26 10:44:25 -0500
+date:   2021-10-25 10:44:25 -0500
 categories: frontend software testing mocks testing e2e api
 ---
 The first time I wrote an end-to-end test suite for a frontend application. I approached the problem naively and based each test case on user flows that I could understand and replicate by navigating through the app that was currently in production.
